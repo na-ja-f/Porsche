@@ -1,0 +1,26 @@
+.head{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    margin-left: 20px;
+}
+.menu-icon{
+    font-size: 20px;
+    margin-right: 7px;
+    color: rgb(76, 76, 76);
+}
+.menu-name{
+    font-size: 20px;
+    font-weight: 300;
+}
+.brand{
+   height: 40px;
+   margin-right: 60px;
+    
+}

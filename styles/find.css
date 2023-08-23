@@ -1,0 +1,33 @@
+.find-head{
+    margin-top: 70px;
+    margin-left: 110px;
+    margin-bottom: 60px;
+}
+
+.find-main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.model-name{
+    display: flex;
+    flex: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+.model-button1{
+    height: 50px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.model-button1:hover{
+    cursor: pointer;
+    background-color: red;
+}

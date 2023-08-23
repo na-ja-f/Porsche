@@ -1,0 +1,34 @@
+.ending-grid{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(27, 23, 23);
+    
+}
+
+.buildandfind{
+    flex: 1fr;
+}
+
+.online{
+    flex: 1fr;
+}
+
+.behind{
+    flex: 1fr;
+}
+
+.company{
+    flex: 1fr;
+}
+
+.last{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(57, 57, 57);
+}

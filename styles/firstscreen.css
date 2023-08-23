@@ -1,0 +1,48 @@
+.main-section{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 40px;
+    margin-bottom: 0;
+}
+
+.main-section > *{
+    scroll-snap-align: start;
+    margin-bottom: 0;
+}
+
+.main-section::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.entry-image{
+    width: 100%;
+    cursor: pointer;
+}
+
+.firstscreen{
+    position: relative;
+}
+
+.timeless{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    bottom: 40px;
+    left: 45px;
+    cursor: pointer;
+}
+
+.carrera{
+    margin-left: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.timeless:hover,
+.carrera:hover{
+    color: #ca0101;
+}

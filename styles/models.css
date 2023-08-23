@@ -1,0 +1,82 @@
+.model-title{
+   margin: 0px 0px 30px 80px;
+
+}
+
+.models-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0;
+    column-gap: 0;
+    height: 737px;
+    
+}
+
+@media (max-width: 850px){
+    .models-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.models-grid img{
+    height: 369px;
+    width: 506px;
+    
+}
+
+.image{
+    position: relative;
+}
+
+.build-box{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+.build-button{
+    display: inline-block;
+    height: 50px;
+    padding: 0px 15px 25px 15px;
+    justify-content: center;
+    background-color: white;
+    border: 0;
+    
+}
+
+.build-button:hover{
+    background-color: rgba(255, 0, 0, 0.943);
+    cursor: pointer;
+}
+
+.build{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.all-button{
+    display: inline-block;
+    height: 49px;
+    padding: 0px 20px 25px 20px;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 5px;
+}
+
+.all{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+}
+
+.all-button:hover{
+    border-color: red;
+    cursor: pointer;
+}
+
+.note{
+    font-size: 12px;
+    margin-left: 20px;
+}
